@@ -1,0 +1,7 @@
+IC 616 Book Labs - validation record
+Date: 2026-08-23
+Command: PYTHONPATH=src python -m pytest -q
+Result: 7 passed
+
+The Python reference models and experiments were executed successfully.
+SystemVerilog and formal sources are included, but HDL compilation/formal proof were not run in the production environment because Icarus Verilog, Verilator, Yosys, and SymbiYosys were not installed.

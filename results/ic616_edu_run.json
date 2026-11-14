@@ -1,0 +1,9 @@
+{
+  "cycles": 8,
+  "halted": true,
+  "accumulator": 1,
+  "memory_0x20": 8,
+  "zero": false,
+  "negative": false,
+  "carry": false
+}

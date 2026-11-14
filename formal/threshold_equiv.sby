@@ -1,0 +1,14 @@
+[options]
+mode prove
+depth 1
+
+[engines]
+smtbmc
+
+[script]
+read -formal threshold_equiv.sv
+prep -top threshold_equiv
+
+[files]
+threshold_equiv.sv
+../rtl/threshold_primitives.sv
